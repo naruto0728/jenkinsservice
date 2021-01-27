@@ -26,7 +26,7 @@ public class ApiTest {
     private Properties loadFromEnvProperties(String propFileName) {
         Properties prop = null;
 
-        String path = System.getProperty("user.home");
+        String path = System.getProperty("user.dir")+"/src/test/resources";
 
         //读入envProperties属性文件
         try {
